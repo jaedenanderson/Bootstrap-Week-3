@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body> <nav></nav>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Music of Omaha</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="UpcomingShows.html">Upcoming Shows</a>
+          </li>
+          
+        </ul>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+<!-- HERO -->
+<div>
+    <img class="img-fluid" src="Images/MusicofOmaha.png" alt="Music of Omaha">
+</div>
+<!-- WELCOME -->
+<h1 class="text-center p-1">Welcome to Music of Omaha</h1>
+<p class="text-center fs-5">A resource for shows and concerts happening in our city!</p>
+<p class="text-center fs-5">Find a show and get out almost any night of the week.</p>
+
+<!-- CARDS -->
+<div class="container text-center">
+    <div class="row row-cols-1 row-cols-lg-3 g-5 m-3 pt-5">
+
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+            <img src="Images/Localband.jpg" class="card-img-top" alt="Local band playing music">
+            <div class="card-body">
+              <h5 class="card-title">Local Bands</h5>
+              <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="col">
+       <div class="card h-100 shadow-lg">
+  <img src="Images/Concert.jpg" class="card-img-top" alt="Outdoor concert crowd and band">
+  <div class="card-body">
+    <h5 class="card-title">Concerts</h5>
+    <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   
+  </div>
+</div>
+
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+            <img src="Images/Festival.jpg" class="card-img-top" alt="Festival crowd and stage">
+            <div class="card-body">
+              <h5 class="card-title">Festivals</h5>
+              <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+
+<!-- PICTURE DIV -->
+<div class="container mt-5 mb-5 pt-5 pb-5 text-center">
+  <div class="row gx-0 g-0">
+    <div class="col-sm-12 pb-3"><h2>Get a cold drink and try some local food.</h2></div>
+  </div>
+  <div class="row gx-0 g-0">
+    <div class="col-sm-6">
+        <img class="img-fluid" src="Images/Drinking.jpg" alt="People drinking cold beverages" width="400" height="400">
+    </div>
+    <div class="col-sm-6"><img class="img-fluid" src="Images/EatingFood.jpg" alt="People eating food at a bar" width="400" height="400"></div>
+  </div>
+  <div class="row gx-0 g-0">
+    <div class="col-sm-6"><img class="img-fluid" src="Images/PeopleDancing.jpg" alt="People dancing to music" width="400" height="400">
+    </div>
+    <div class="col-sm-6">
+        <img class="img-fluid" src="Images/SittingInGrass.jpg" alt="People sitting outside on the grass" width="400" height="400">
+    </div>
+  </div>
+</div>
+
+<hr class="border border-secondary border-2 opacity-50">
+
+<!-- IMG VIEW ALL LOCATIONS/SHOWS?-->
+<div class="container mt-5 pt-5">
+  <div class="card text-bg-dark">
+  <a href="UpcomingShows.html">
+    <img src="Images/SeeShowsCard.jpg" class="card-img img-fluid" alt="See upcoming shows" width="400">
+    <div class="card-img-overlay">
+      <h3 class="card-title">View Upcoming Shows</h5>
+      <p class="card-text fs-5">Check out current, new, and touring bands.</p>
+    </div>
+    </a>
+  </div>  
+</div>  
+
+<!-- CONTACT FORM -->
+<h1 class="text-center mt-5 pt-5">Contact Us</h1>
+<h2 class="text-center mb-4">Sign up for the Music of Omaha Newsletter!</h2>
+
+<div class="container">
+  <form class="row g-3 mb-5 ms-3 me-3 pt-5"></form>
+  <div class="col-md-6">
+    <label for="firstname" class="form-label">First Name</label>
+    <input type="text" class="form-control" aria-label="First name" id="firstname">
+  </div>
+  <div class="col-md-6">
+    <label for="lastname" class="form-label">Last Name</label>
+    <input type="text" class="form-control" aria-label="Last name" id="lastname">
+  </div>
+
+  <div class="col-12">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+ 
+  <div class="col-12">
+    <button type="submit" class="btn btn-danger">Submit</button>
+  </div>
+</form>
+</div>
+
+<!-- FOOTER -->
+<footer class="pt-5 pb-5">
+  <div class="text-center p-2">
+    <h5>Music of Omaha! copyright 2024</h5>
+  </div>
+</footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
